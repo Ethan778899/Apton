@@ -1,5 +1,4 @@
 import { createRoot } from "react-dom/client";
-import { THEME, TonConnectUIProvider } from "@tonconnect/ui-react";
 import { SDKProvider } from "@telegram-apps/sdk-react";
 import { Toast } from "@/components";
 import { TonProvider } from "./provider/tonconnect";
