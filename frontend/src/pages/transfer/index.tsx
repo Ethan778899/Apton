@@ -61,7 +61,7 @@ export default () => {
 				appStore.actions.setBalance(v);
 			}, 1000 * 5);
 		} catch (err) {
-			toast.success("Transfer fail");
+			toast.error("Transfer fail");
 		}
 
 		t.clear();
