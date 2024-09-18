@@ -13,7 +13,7 @@ export default () => {
 		<div className={styles.queryBalance}>
 			<Cell.Group>
 				<Cell title="Ton Address" label={address} />
-				<Cell title="EVM Vault Address" label="0x4CC8a90840e2237ac86e13A25733E5d548F55fd9" />
+				<Cell title="EVM Vault Address" label="0x87fb324d6c6c8f8e3173a9ec37ac6fb67fea9e29da897d92290adb88453ec271" />
 				<Cell title="Balance" label={appStates.balance} />
 			</Cell.Group>
 			<TabBar />

@@ -1,7 +1,7 @@
 import { serve } from "@hono/node-server";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
-import { TonProofService, getInfo } from "./service";
+import { TonProofService } from "./service";
 import { TonApiService } from "./service/ton-api-service";
 import { CheckProofRequest } from "./dto/check-proof-request-dto";
 import { createPayloadToken, verifyToken, createAuthToken } from "./utils/jwt";
