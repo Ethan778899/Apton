@@ -21,7 +21,7 @@ docker run -itd \
     --add-host="host.docker.internal:host-gateway" \
     --name=apton \
     --platform linux/amd64 \
-    -p 3002:3000 \
+    -p 3003:3000 \
     ethan778899/apton:0.0.1
 ```
 
@@ -34,6 +34,6 @@ docker run -itd \
     --add-host="host.docker.internal:host-gateway" \
     --name=apton \
     --platform linux/amd64 \
-    -p 3002:3000 \
+    -p 3003:3000 \
     ethan778899/apton:0.0.1
 ```
